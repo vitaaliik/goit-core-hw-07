@@ -134,6 +134,7 @@ def birthdays(args, book):
         result.append(f"{record.name.value}: {record.birthday.value.strftime('%d.%m.%Y')}")
     return "\n".join(result)
 
+
 def main():
     book = AddressBook()
     print("Welcome to the assistant bot!")
